@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/drawable-v24/dotted.xml" value="0.20964912280701756" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/drawable-v24/ic_drop.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/drawable/bg_btn.xml" value="0.24956140350877193" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/drawable/bg_floating.xml" value="0.17456140350877192" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/drawable/bg_home.xml" value="0.3223684210526316" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/drawable/bg_item.xml" value="0.3223684210526316" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/drawable/bg_login.xml" value="0.3223684210526316" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/drawable/bg_rating.xml" value="0.3223684210526316" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/drawable/bg_sv.xml" value="0.3223684210526316" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/drawable/bg_text_login.xml" value="0.24956140350877193" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/drawable/bg_text_order.xml" value="0.20877192982456141" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/drawable/ic_shop.xml" value="0.17456140350877192" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/layout/activity_home.xml" value="0.15" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/layout/activity_order.xml" value="0.33" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/layout/fragment_login.xml" value="0.33" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/layout/fragment_order_list.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/layout/fragment_profil.xml" value="0.18" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/layout/item_jl.xml" value="0.22" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/layout/item_moment.xml" value="0.22" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/layout/item_order.xml" value="0.33" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/layout/item_rating.xml" value="0.2" />
+        <entry key="..\:/Users/As-Syifa/AndroidStudioProjects/Acmc/app/src/main/res/menu/bottom_nav.xml" value="0.30833333333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

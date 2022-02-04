@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Acmc" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/maincolor</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="ColorHint" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colortext</item>
+    </style>
+    <style name = "StatusBarRed" parent = "Theme.MaterialComponents.Light.NoActionBar">
+        <item name = "android:windowActionBar">false</item>
+        <item name = "android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/maincolor</item>
+        <item name="android:textColorHint">@color/colortext</item>
+    </style>
+    <style name="NavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemTextAppearanceActive">@style/ActiveText</item>
+        <item name="itemTextAppearanceInactive">@style/InactiveText</item>
+    </style>
+    <style name="ActiveText">
+        <item name="android:textColor">@color/menuicon</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="InactiveText">
+        <item name="android:textColor">@color/colortext</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name = "MainBar" parent = "Theme.MaterialComponents.Light.NoActionBar">
+        <item name = "android:windowActionBar">false</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name = "android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowBackground">@color/menuicon</item>
+        <item name="colorPrimaryDark">@color/white</item>
+    </style>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorAbu</item>
+        <item name="colorControlActivated">@color/duskYellow</item>
+    </style>
+    <style name="customRatingBar"
+        parent="android:style/Widget.Material.RatingBar.Small">
+    </style>
+    <style name="SpinnerTheme">
+        <item name="android:textColor">@color/colortext1</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+</resources>

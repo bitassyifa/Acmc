@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/homeFragment">
+    <action
+        android:id="@+id/action_global_to_profilFragment"
+        app:destination="@id/profilFragment" />
+    <action
+        android:id="@+id/action_global_to_homeFragment"
+        app:destination="@id/homeFragment" />
+    <action
+        android:id="@+id/action_global_to_orderListFragment"
+        app:destination="@id/orderListFragment" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.bitassyifaproject.acmc.home.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.bitassyifaproject.acmc.profil.ProfilFragment"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/orderListFragment"
+        android:name="com.bitassyifaproject.acmc.order.ui.OrderListFragment"
+        android:label="fragment_order_list"
+        tools:layout="@layout/fragment_order_list" />
+</navigation>

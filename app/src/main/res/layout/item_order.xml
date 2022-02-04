@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_item"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:padding="2dp"
+    android:elevation="3dp">
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:id="@+id/pickLogo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/acmc2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/colortext4"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/pickLogo"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="nama_produk" />
+
+    <TextView
+        android:id="@+id/tglOrder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/poppins_regular"
+        android:maxLines="2"
+        android:textColor="@color/colortext4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sts"
+        app:layout_constraintStart_toEndOf="@+id/pickLogo"
+        app:layout_constraintTop_toBottomOf="@+id/picProduk"
+        tools:text="tgl" />
+    <TextView
+        android:id="@+id/picProduk"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:fontFamily="@font/poppins_regular"
+        android:maxLines="2"
+        android:textColor="@color/colortext4"
+        app:layout_constraintEnd_toStartOf="@+id/sts"
+        app:layout_constraintStart_toEndOf="@+id/pickLogo"
+        app:layout_constraintTop_toBottomOf="@+id/productName"
+        tools:text="pic produk" />
+
+    <TextView
+        android:id="@+id/sts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="20dp"
+        android:textSize="15sp"
+        android:textColor="@color/maincolor"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="status" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
